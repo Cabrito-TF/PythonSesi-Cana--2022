@@ -28,8 +28,8 @@ bottomFrame.grid(row=5,column=0,sticky=NSEW)
 line = Frame(wd, width=10, height=10, bg="black",padx=0,pady=0,relief='flat')
 line.grid(row=4,column=0,sticky=NSEW)
 
-button = Button(wd, width=10, height=10,text="grow", bg='black')
-button.place(relx=0.5,rely=0.5)
+# button = Button(wd, width=10, height=10,text="grow", bg='black')
+# button.place(relx=0.5,rely=0.5)
 
 wd.configure(bg=dark)
 wd.resizable(False,False)
